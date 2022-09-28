@@ -69,25 +69,25 @@ const Footer=()=>{
                                     <h2>Follow us</h2>
                                     <div className="row">
                                         <div className="col-3 mx-auto">
-                                            <a href="https://www.facebook.com/profile.php?id=100013427592201" target="_blank">
+                                            <a href="https://www.facebook.com/profile.php?id=100008516231045" target="_blank">
                                                 
                                                 <FacebookIcon/>
                                             </a>
                                         </div>
                                         <div className="col-3 mx-auto">
-                                            <a href="https://www.instagram.com/_abhishek___.18/" target="_blank">
+                                            <a href="https://www.instagram.com/its_aman_17abd/" target="_blank">
                                                
                                                 <InstagramIcon/>
                                             </a>
                                         </div>
                                         <div className="col-3 mx-auto">
-                                            <a href="https://www.linkedin.com/in/abhishek-kumar-051853206" target="_blank">
+                                            <a href="https://www.linkedin.com/in/aman-shahjade-a46223214/" target="_blank">
                                                 
                                                 <LinkedInIcon/>
                                             </a>
                                         </div>
                                         <div className="col-3 mx-auto">
-                                            <a href="https://github.com/abhishekiiitp" target="_abhishek">
+                                            <a href="https://github.com/mdaman-2345" target="_abhishek">
                                                
                                                 <GitHubIcon/>
                                             </a>
