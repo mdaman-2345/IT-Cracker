@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Aman Shahjade\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Users\AMANSH~1\AppData\Local\Temp\yarn--1664386172929-0.6759399279688594;E:\it-cracker\IT-Cracker\node_modules\.bin;C:\Users\Aman Shahjade\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\Aman Shahjade\AppData\Roaming\npm\bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\it-cracker\IT-Cracker\node_modules\.bin;E:\it-cracker\node_modules\.bin;E:\node_modules\.bin;C:\Users\Aman Shahjade\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Aman Shahjade\AppData\Local\Microsoft\WindowsApps;C:\Users\Aman Shahjade\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Aman Shahjade\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  TypeError: Cannot create property 'module' on string '{"module":"C:\\Users\\Aman Shahjade\\.npm-init.js"}'
+      at set (C:\Users\Aman Shahjade\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:53943:28)
+      at set (C:\Users\Aman Shahjade\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:53957:14)
+      at set (C:\Users\Aman Shahjade\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:53937:16)
+      at Function.objectPath.set (C:\Users\Aman Shahjade\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:53990:14)
+      at NpmRegistry.mergeEnv (C:\Users\Aman Shahjade\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:96231:18)
+      at NpmRegistry.<anonymous> (C:\Users\Aman Shahjade\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:31942:12)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Aman Shahjade\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Aman Shahjade\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:328:14
+      at new Promise (<anonymous>)
+
+npm manifest: 
+  {
+    "name": "mern",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "yarn start",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cookie-parser": "^1.4.5",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "express-ws": "^4.0.0",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.12.6",
+      "nodemon": "^2.0.7",
+      "redis": "^3.1.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
